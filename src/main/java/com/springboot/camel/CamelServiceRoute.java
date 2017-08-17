@@ -16,7 +16,7 @@ import org.apache.camel.component.jms.JmsConfiguration;
 public class CamelServiceRoute extends RouteBuilder{
 
 
-	ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("admin", "admin", "tcp://127.0.0.1:61616");
+	ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("admin", "admin", "tcp://10.1.5.69:61616");
 	@Override
 	public void configure() throws Exception {
 		System.out.println("Inside configure method");
